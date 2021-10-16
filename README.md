@@ -62,7 +62,7 @@ the repository root: https://github.com/CosmWasm/cosmwasm-plus#compiling.
 
 ## Deploying this contract
 
-An example deployment script is demonstrated in `script/deploy.sh`. Be sure to update script variables with your chain details.
+An example deployment script is demonstrated in `scripts/deploy.sh`. Be sure to update script variables with your chain details.
 
 ```sh
 cd scripts
