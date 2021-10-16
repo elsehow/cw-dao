@@ -5,7 +5,7 @@ BINARY='wasmd'
 DENOM='ujunox'
 CHAIN_ID='localnet-1'
 RPC='http://localhost:26657'
-TXFLAG="--gas-prices 0.01$DENOM --gas auto --gas-adjustment 1.3 -y -b block --chain-id $CHAIN_ID --node $RPC --keyring-backend test"
+TXFLAG="--gas-prices 0.01$DENOM --gas auto --gas-adjustment 1.3 -y -b block --chain-id $CHAIN_ID --node $RPC"
 
 : ${1?"Usage: $0 <address-to-deploy-contract-with>"}
 
