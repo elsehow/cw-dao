@@ -7,7 +7,7 @@ CHAIN_ID='localnet-1'
 RPC='http://localhost:26657'
 TXFLAG="--gas-prices 0.01$DENOM --gas auto --gas-adjustment 1.3 -y -b block --chain-id $CHAIN_ID --node $RPC --keyring-backend test"
 
-: ${1?"Usage: $0 <address-to-deploy-conract-with>"}
+: ${1?"Usage: $0 <address-to-deploy-contract-with>"}
 
 RUSTFLAGS='-C link-arg=-s' cargo wasm
 COMPILED_CONTRACTS_DIR='../target/wasm32-unknown-unknown/release'
