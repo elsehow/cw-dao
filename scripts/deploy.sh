@@ -2,7 +2,7 @@
 
 # NOTE: you will need to update these to deploy on different network
 BINARY='wasmd'
-DENOM='ujunox'
+DENOM='stake'
 CHAIN_ID='localnet-1'
 RPC='http://localhost:26657'
 TXFLAG="--gas-prices 0.01$DENOM --gas auto --gas-adjustment 1.3 -y -b block --chain-id $CHAIN_ID --node $RPC"
