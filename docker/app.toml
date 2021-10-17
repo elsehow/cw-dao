@@ -123,6 +123,7 @@ rpc-max-body-bytes = 1000000
 
 # EnableUnsafeCORS defines if CORS should be enabled (unsafe - use it at your own risk).
 enabled-unsafe-cors = true
+enable-unsafe-cors = true
 
 ###############################################################################
 ###                           gRPC Configuration                            ###
